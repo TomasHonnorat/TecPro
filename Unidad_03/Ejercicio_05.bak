@@ -1,0 +1,11 @@
+#lang racket
+
+; Ejercicio 05
+
+; (+ (/ (* 7 a) b) (/ (* 3 a) b) (/ (* 7 a) b))
+
+(let ([t1 (* 7 a)]
+      [t2 (* 3 a)])
+  (+ (/ t1 b)
+     (/ t2 b)
+     (/ t1 b)))

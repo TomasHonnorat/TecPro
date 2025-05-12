@@ -1,0 +1,17 @@
+#lang racket ; Utilizar racket
+
+#|
+  Ejemplos de Operaciones 
+  y Definiciones en Racket.
+|#
+
+; Ejemplos basicos:
+(+ 3 5)
+(* 3 5)
+(+ (* 3 5) (* 2 5))
+(sqrt 2)
+
+; Ejemplo de definiciones constantes
+(define numPi 3.141592)
+(define nombre "Tomas")
+

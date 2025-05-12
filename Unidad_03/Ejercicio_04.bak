@@ -1,0 +1,7 @@
+#lang racket
+
+; Ejercicio 04
+
+(cdr (cdr (cdr '(a b c . x))))
+(cdddr '(a b c . x) ; Forma abreviada
+       
