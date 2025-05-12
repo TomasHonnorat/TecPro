@@ -60,7 +60,6 @@
         [(h<=? h-actual (car h-list)) h-list]
         [else (obtener-horarios h-actual (cdr h-list))]))
 
-
 #| Obtener una sublista dado los indices |#
 (define (sublista l inicio fin)
   (take (drop l inicio) (- fin inicio)))
@@ -93,7 +92,9 @@
                    (obtener-costo origen destino)
                    hs)))])))
 
-#| Ejemplos de Uso |#
+#| -------------------------------------------------------------------- |#
+                       #| Ejemplos de Uso |#
+#| -------------------------------------------------------------------- |#
 
 (ArgentinaTur '("Córdoba Capital" "La Falda" (10 30)))
 (ArgentinaTur '("Valle Hermoso" "La Cumbre" (09 00)))
